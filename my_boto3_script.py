@@ -78,7 +78,7 @@ git clone https://github.com/UnpredictablePrashant/TravelMemory.git /var/www/htm
 curl -sL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 sudo apt-get install -y nodejs
 cd /var/www/html/TravelMemory/backend
-echo "MONGO_URI=mongodb+srv://<username>:<password>@travelmemorydb.b3sfizx.mongodb.net/" > .env
+echo "MONGO_URI=mongodb+srv://testdb:hi@travelmemorydb.b3sfizx.mongodb.net/" > .env
 echo "PORT=3000" >> .env
 npm install
 nohup npm start &
